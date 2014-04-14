@@ -1,0 +1,328 @@
+.sns-producttabs{
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+}
+.sns-producttabs .pre-text{
+	margin: 0 0 15px 0;
+}
+.sns-producttabs .post-text{
+	margin: 10px 0 0;
+}
+
+.sns-producttabs a:hover{
+	text-decoration: none;
+}
+.sns-producttabs .sns-pdt-container{
+	padding: 0;
+}
+
+.sns-producttabs .sns-pdt-container .pdt-nav{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.sns-producttabs .sns-pdt-container .pdt-nav > li{
+    float: left;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0 10px 10px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.sns-producttabs .sns-pdt-container .pdt-nav > li.tab-nav-actived,
+.sns-producttabs .sns-pdt-container .pdt-nav > li:hover{
+	background: #666; color: #FFF;
+}
+.sns-producttabs .sns-pdt-content{
+	margin:0;
+	padding:0;
+}
+
+.sns-producttabs .sns-pdt-content .pdt-content{
+	margin:30px 0 0;
+	padding:0;
+	width:100%;
+	display:none;
+}
+
+.sns-producttabs .sns-pdt-content .pdt-list{
+	margin:0;
+	padding:0;
+	width:100%;
+	float: left;
+}
+
+.sns-producttabs .sns-pdt-content .tab-content-actived{
+	display:inline-block;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .item.first{margin-left: 0px;}
+.sns-producttabs .sns-pdt-content .pdt-content .item{
+	float:left;
+	margin-bottom:30px;
+	/*padding-left: 30px;*/
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .item-animate{
+	opacity: 0;
+	filter:alpha(opacity = 0);
+    position: relative;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .play .item-animate{
+	opacity: 1;
+	filter:alpha(opacity = 100);
+}
+.sns-producttabs .sns-pdt-content .pdt-content .play .item-animate{
+	-webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .slideBottom.play .item-animate{
+	-webkit-animation: slideBottom 600ms ease both;
+    -moz-animation: slideBottom 600ms ease both;
+    -o-animation: slideBottom 600ms ease both;
+    animation: slideBottom 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .slideLeft.play .item-animate{
+	-webkit-animation: slideLeft 600ms ease both;
+    -moz-animation: slideLeft 600ms ease both;
+    -o-animation: slideLeft 600ms ease both;
+    animation: slideLeft 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .slideRight.play .item-animate{
+	-webkit-animation: slideRight 600ms ease both;
+    -moz-animation: slideRight 600ms ease both;
+    -o-animation: slideRight 600ms ease both;
+    animation: slideRight 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .bounceIn.play .item-animate{
+	-webkit-animation: bounceIn 600ms ease both;
+    -moz-animation: bounceIn 600ms ease both;
+    -o-animation: bounceIn 600ms ease both;
+    animation: bounceIn 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .bounceInRight.play .item-animate {
+    -webkit-animation: bounceInRight 600ms ease both;
+    -moz-animation: bounceInRight 600ms ease both;
+    -o-animation: bounceInRight 600ms ease both;
+    animation: bounceInRight 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .zoomIn.play .item-animate{
+	-webkit-animation: zoomIn 600ms ease both;
+    -moz-animation: zoomIn 600ms ease both;
+    -o-animation: zoomIn 600ms ease both;
+    animation: zoomIn 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .zoomOut.play .item-animate{
+	-webkit-animation: zoomOut 600ms ease both;
+    -moz-animation: zoomOut 600ms ease both;
+    -o-animation: zoomOut 600ms ease both;
+    animation: zoomOut 600ms ease both;
+}
+
+.sns-producttabs .sns-pdt-content .pdt-content .pageRight.play .item-animate{
+	-webkit-animation: pageRight 600ms ease both;
+    -moz-animation: pageRight 600ms ease both;
+    -o-animation: pageRight 600ms ease both;
+    animation: pageRight 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .pageLeft.play .item-animate{
+	-webkit-animation: pageLeft 600ms ease both;
+    -moz-animation: pageLeft 600ms ease both;
+    -o-animation: pageLeft 600ms ease both;
+    animation: pageLeft 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .pageTop.play .item-animate{
+	-webkit-animation: pageTop 600ms ease both;
+    -moz-animation: pageTop 600ms ease both;
+    -o-animation: pageTop 600ms ease both;
+    animation: pageTop 600ms ease both;
+}
+.sns-producttabs .sns-pdt-content .pdt-content .pageBottom.play .item-animate{
+	-webkit-animation: pageBottom 600ms ease both;
+    -moz-animation: pageBottom 600ms ease both;
+    -o-animation: pageBottom 600ms ease both;
+    animation: pageBottom 600ms ease both;
+}
+
+.sns-producttabs .sns-pdt-content .pdt-content .starwars.play .item-animate{
+	-webkit-animation: starwars 600ms ease-out both;
+    -webkit-transform-origin: 50% 50%;
+
+    -moz-animation: starwars 600ms ease-out both;
+    -moz-transform-origin: 50% 50%;
+
+    -o-animation: starwars 600ms ease-out both;
+    -o-transform-origin: 50% 50%;
+
+    animation: starwars 600ms ease-out both;
+    transform-origin: 50% 50%;
+
+}
+.sns-producttabs .pdt-content  .content-loading{
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+	position: relative;
+    background: url(../images/loader.gif) no-repeat scroll center center transparent;
+	min-height:400px;
+	display:block;
+	z-index:0;
+}
+
+.sns-producttabs .sns-pdt-content .pdt-loadmore{
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	margin:0 auto;
+	width: 100%;
+}
+
+.sns-producttabs .pdt-content .pdt-loadmore .btn-loadmore{
+	padding: 6px 20px;
+	display:inline-block;
+	background: #777;
+	color:#FFF;
+	cursor:pointer;
+	position: relative;
+}
+.sns-producttabs .pdt-content .pdt-loadmore .btn-loadmore.loading{
+	padding: 6px 20px 6px 50px;
+}
+.sns-producttabs .pdt-content .pdt-loadmore .btn-loadmore:hover{
+	background: #222;
+}
+
+.sns-producttabs .pdt-content .pdt-loadmore .ico-loading{
+	background: url("../images/load.gif") no-repeat scroll center center transparent;
+	width:24px;
+	height:24px;
+	display:none;
+	margin-right:10px;
+	vertical-align:middle;
+	position: absolute;
+	top: 6px;
+	left: 20px;
+}
+.sns-producttabs .pdt-content .pdt-loadmore .btn-loadmore.loading .load-number{
+	display: none;
+}
+
+.sns-producttabs .pdt-content.is-loading .pdt-loadmore {
+	display:none;
+}
+.sns-producttabs .pdt-content .pdt-loadmore .load-number:before{
+	content: "("attr(data-more);
+}
+
+.sns-producttabs .pdt-content .pdt-loadmore .load-number:after{
+	content: attr(data-total)")";
+}
+
+.sns-producttabs .pdt-list .wide-first{margin-left: 0px;}
+.pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sns-producttabs .wide-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+.sns-producttabs .wide-5 .item{ width: 20%; }
+.sns-producttabs .wide-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+.sns-producttabs .wide-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+.sns-producttabs .wide-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+.sns-producttabs .wide-1 .item{ width: 100%;*width: 99.946808510638%; }
+
+/*--- For devices---*/
+@media (max-width: 479px){
+	.sns-producttabs .pdt-list .item.mobileportrait-first{margin-left: 0px;}
+	.sns-producttabs .pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-producttabs .mobileportrait-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+	.sns-producttabs .mobileportrait-5 .item{ width: 20%; }
+	.sns-producttabs .mobileportrait-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+	.sns-producttabs .mobileportrait-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+	.sns-producttabs .mobileportrait-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+	.sns-producttabs .mobileportrait-1 .item{ width: 100%;*width: 99.946808510638%; }
+}
+@media (min-width: 480px) and (max-width: 767px){
+	.sns-producttabs .pdt-list .item.mobilelandscape-first{margin-left: 0px;}
+	.sns-producttabs .pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-producttabs .mobilelandscape-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+	.sns-producttabs .mobilelandscape-5 .item{ width: 20%; }
+	.sns-producttabs .mobilelandscape-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+	.sns-producttabs .mobilelandscape-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+	.sns-producttabs .mobilelandscape-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+	.sns-producttabs .mobilelandscape-1 .item{ width: 100%;*width: 99.946808510638%; }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	.sns-producttabs .pdt-list .item.tabletportrait-first{margin-left: 0px;}
+	.sns-producttabs .pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-producttabs .tabletportrait-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+	.sns-producttabs .tabletportrait-5 .item{ width: 20%; }
+	.sns-producttabs .tabletportrait-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+	.sns-producttabs .tabletportrait-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+	.sns-producttabs .tabletportrait-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+	.sns-producttabs .tabletportrait-1 .item{ width: 100%;*width: 99.946808510638%; }
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+	.sns-producttabs .pdt-list .item.tabletlandscape-first{margin-left: 0px;}
+	.sns-producttabs .pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-producttabs .tabletlandscape-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+	.sns-producttabs .tabletlandscape-5 .item{ width: 20%; }
+	.sns-producttabs .tabletlandscape-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+	.sns-producttabs .tabletlandscape-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+	.sns-producttabs .tabletlandscape-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+	.sns-producttabs .tabletlandscape-1 .item{ width: 100%;*width: 99.946808510638%; }
+}
+
+@media (min-width: 1200px ) and (max-width: 1599px){
+	.sns-producttabs .pdt-list .item.normal-first{margin-left: 0px;}
+	.sns-producttabs .pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-producttabs .normal-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+	.sns-producttabs .normal-5 .item{ width: 20%; }
+	.sns-producttabs .normal-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+	.sns-producttabs .normal-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+	.sns-producttabs .normal-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+	.sns-producttabs .normal-1 .item{ width: 100%;*width: 99.946808510638%; }
+}
+
+@media (min-width: 1600px ){
+	.sns-producttabs .pdt-list .item.wide-first{margin-left: 0px;}
+	.sns-producttabs .pdt-list .item{margin-left: 2.5641025641026%; *margin-left: 2.5109110747409%; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-producttabs .wide-6 .item{ width: 14.529914529915%;*width: 14.476723040553%;}
+	.sns-producttabs .wide-5 .item{ width: 20%; }
+	.sns-producttabs .wide-4 .item{ width: 23.076923076923%;*width: 23.023731587561%;}
+	.sns-producttabs .wide-3 .item{ width: 31.623931623932%;*width: 31.57074013457%;}
+	.sns-producttabs .wide-2 .item{ width: 48.717948717949%; *width: 48.664757228587%; }
+	.sns-producttabs .wide-1 .item{ width: 100%;*width: 99.946808510638%; }
+}

@@ -1,0 +1,27 @@
+/* IE8 not support media query */
+body .container{width: 1170px;}
+/* Fix for menu */
+#sns_menu{filter:none !important;}
+.sns-megamenu-wrap.horizontal-menu .mega-nav li.level0 > .mega-content-wrap,
+ul.mainnav li > ul[class*="level"] { visibility: visible !important; top: -999em !important}
+.sns-megamenu-wrap.horizontal-menu .mega-nav li.level0:hover > .mega-content-wrap,
+ul.mainnav > li:hover > ul[class*="level"] {top: 78px !important;}
+ul.mainnav > li li:hover > ul[class*="level"] {top: 0px !important;}
+
+#sns_off_screennav{display: none;}
+
+.sns-ajaxcart .block-content{display: none !important;visibility: visible !important;}
+.sns-ajaxcart:hover .block-content{
+	display: block !important; visibility: visible !important;
+}
+
+.sns-ajaxcarts{
+	z-index: 1;
+}
+.sns-ajaxcart:hover{
+	z-index: 2;
+}
+.hideleft,
+.hideflip {visibility: hidden !important;}
+.showleft,
+.showflip {visibility: visible !important;}

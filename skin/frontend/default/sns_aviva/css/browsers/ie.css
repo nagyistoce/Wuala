@@ -1,0 +1,4 @@
+.products-list .item .product-shop .actions-addtocart ul.add-to-links li a.button,
+#sns_topheader .topheader-right #search_mini_form .button{
+	filter:none;
+}

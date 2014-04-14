@@ -1,0 +1,18 @@
+.sns-btn-quickview{
+	position: absolute; z-index: 2;
+	left: 50%;
+	top: 50%;
+	margin: -45px 0 0 -45px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	height: 90px; width: 90px;
+
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-o-border-radius: 100%;
+}
+.sns-btn-quickview span{
+	color: #FFF; font-weight: bold;
+	margin-top: 35px; display: block;
+}

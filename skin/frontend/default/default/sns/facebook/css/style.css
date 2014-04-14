@@ -1,0 +1,9 @@
+.block-facebook{position: relative;}
+.block-facebook .btn-like{position: absolute;right: 0px; top: 0px; padding: 0 0 0 24px;
+	background: url("../images/ico-like.png") no-repeat left top; height: 18px;
+}
+.block-facebook .fanpage-info{display: block; margin-bottom: 5px;}
+.block-facebook .fanpage-list{margin: 0 -15px;}
+.block-facebook .fanpage-list .item{margin: 0 0 0 15px; width: 62px; float: left;}
+.block-facebook .fanpage-list .item > .item-face{ display: inline-block; padding: 5px; border-bottom: 1px solid #b9b9b9; background: #FFF;}
+.block-facebook .fanpage-list .item .item-name{display: block; text-align: center; margin: 1px 0;}

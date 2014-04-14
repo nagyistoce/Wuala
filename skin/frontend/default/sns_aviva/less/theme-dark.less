@@ -1,0 +1,183 @@
+/* sns mixin */
+@import "sns-mixin.less";
+/* Color var */
+@import "color/dark-vars.less";
+/* General style */
+@import "general.less";
+/* Main style */
+@import "theme.less";
+/* Menu style */
+@import "menu.less";
+
+
+#sns_menu{
+	background: #DDD;
+	//background: url("../images/menu-bg.gif") repeat-x left top;
+	#gradient > .vertical(#f8f8f8, #ededed);
+	border-bottom: none;
+	.box-shadow(0 0 3px rgba(0, 0, 0, 0.3));
+	ul.mainnav{
+		> li{  padding:  0 1px 0 0;
+			> a{color: #444; text-shadow:none; padding-top: 28px;}
+			&:hover{ vertical-align: bottom;
+				> a{ color: #e8e8e8;}
+			}
+			> ul[class*="level"],
+			.mega-content-wrap{top: 78px;}
+			&.active{
+				> a{color: @activeColor;}
+			}
+		}
+	}
+}
+.cms-home{
+	#sns_wrapper{
+		background: #101010 !important;
+	}
+	.block{
+		.block-title{color: #FFF;}
+	}
+	.sns-producttabs .sns-pdt-container .sns-pdt-content .pdt-loadmore:after,
+	#sns_productswrap .sns-slider .title-slider span{background: #101010 !important;}
+	.sns-producttabs .sns-pdt-container .sns-pdt-content .pdt-loadmore{
+		&:before{background: #2b2b2b !important;}
+	}
+	.sns-slider .title-slider{color: #FFF;}
+	#sns_productswrap{
+		.sns-slider{
+			.title-slider{
+				&:before{background: #2b2b2b;}
+				span{background: #101010 !important;}
+			}
+		}
+	}
+	#sns_slideshow{
+	}
+	#sns_topsl{
+		background: transparent; border-bottom-color:#2b2b2b; z-index: 99; top: -60px; position: relative;z-index: 1;
+		margin-bottom: -60px;
+		&:before{height: 60px;
+			background: hsla(hue(@activeColor), saturation(@activeColor), lightness(@activeColor), 0.8); // rgba(...)
+		}
+		.sns-tabs{ text-align: left;
+			ul.tabs-navi{ height: 60px; display: table; margin: 0 auto;
+				list-style: none;
+				> li{ display: inline-block; height: 60px; padding: 0; line-height: 50px; float: left;
+					a{color: #FFF; font-size: 166.67%; font-weight: bold; text-transform: uppercase;
+						padding: 0 22px 0 20px; display: block; position: relative; height: 100%;
+						&.tabulous_active{background: #000;}
+						&:before{width: 1px; height: 100%;background: rgba(0, 0, 0, 0.2);}
+						.pretext{top: -15px;color: #FFF;}
+					}
+					&:first-child{
+						a{
+							padding-left: 22px;
+							&:after{width: 1px; height: 100%; background: rgba(0, 0, 0, 0.2);}
+						}
+					}
+				}
+			}
+			.tabs-content{ background: #000;
+				.block{
+					&.block-latestblog{
+						.first-post{
+							.postTitle{
+								a{color: #FFF;
+									&:hover{color: @activeColor}
+								}
+							}
+							a.aw-blog-read-more{color: #FFF;
+								&:hover{color: @activeColor}
+							}
+						}
+						ul.list-blog{list-style: none; margin: 0 0;
+							li{ padding: 10px 0 9px 0; border-top-color:#2b2b2b;
+								.postTitle{
+									a{color: #FFF;}
+								}
+								&:hover{
+									.postTitle{
+										a{color: @activeColor}
+									}
+								}
+							}
+						}
+						.view-all{
+							a{color: #FFF;
+								&:hover{color: @activeColor}
+							}
+						}
+					}
+					&.about-us{
+						.aboutus{
+							.head-aboutus{
+								.title{
+									color: #FFF;
+								}
+							}
+						}
+						.contactform{
+							.contact-page .page-title h1{color: #FFF;}
+						}
+					}
+				}
+			}
+		}
+	}
+	#sns_shoppolicy{
+		.container{
+			border: 1px solid #2b2b2b;
+		}
+		.block{background: transparent;
+			&:after{background-color: #2b2b2b;}
+		}
+	}
+	#sns_botsl{
+		background: #080808; border-top: 1px solid #202020; border-bottom: 1px solid #202020;
+		&:before{display: none;}
+		&:after{display: none;}
+		.block{
+			&.block-twitter{
+				#sns_twitter{
+					ul{
+						> li{ border-top-color: #2b2b2b;
+							&:before{display: none;}
+						}
+					}
+				}
+			}
+			&.block-facebook{
+				a{color: @color;
+					&:hover{
+						color: @activeColor;
+					}
+				}
+			}
+		}
+	}
+	#sns_botsl2{
+		.container{background: transparent; border-color: #2a2a2a; .box-shadow(none);
+			.block.block-payment{border-color: #2a2a2a;}
+		}
+	}
+	#sns_botsl3{
+		.block{
+			.block-content{
+				ul{
+					li{
+						&:hover{background: rgba(0, 0, 0, 0.2)}
+					}
+				}
+			}
+		}
+	}
+	#sns_footer{
+		.container{
+			&:before{border-top: none; border-bottom: 1px solid #2b2b2b}
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.cms-home #sns_topsl .sns-tabs ul.tabs-navi > li{line-height: 60px; }
+}

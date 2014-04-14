@@ -1,0 +1,174 @@
+<div id="sns_resmenu" class="sns-resmenu menu-sidebar">
+    <button class="btn btn-navbar sns-resmenu-sidebar" type="button"><i class=" icon-reorder"></i>
+    </button>
+    <ul class="nav resmenu" style="display:none">
+        <li class="nav-home active level0">
+            <a class="nav-home active level0" href="http://localhost/index.php/" title="Home"><span>Home</span></a>
+        </li>
+                    <li class="level0 nav-1 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/index.php/car-store.html">
+<span>Car store</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-1-1 first parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/index.php/car-store/dresses.html">
+<span>Dresses</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-1-1 first">
+<a href="http://localhost/index.php/car-store/dresses/cocktail.html">
+<span>Cocktail</span>
+</a>
+</li><li class="level2 nav-1-1-2">
+<a href="http://localhost/index.php/car-store/dresses/day.html">
+<span>Day</span>
+</a>
+</li><li class="level2 nav-1-1-3">
+<a href="http://localhost/index.php/car-store/dresses/evening.html">
+<span>Evening</span>
+</a>
+</li><li class="level2 nav-1-1-4">
+<a href="http://localhost/index.php/car-store/dresses/sundresses.html">
+<span>Sundresses</span>
+</a>
+</li><li class="level2 nav-1-1-5">
+<a href="http://localhost/index.php/car-store/dresses/sweater.html">
+<span>Sweater</span>
+</a>
+</li><li class="level2 nav-1-1-6 last">
+<a href="http://localhost/index.php/car-store/dresses/belts.html">
+<span>Belts</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-1-2 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/index.php/car-store/lingerie.html">
+<span>Lingerie</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-2-7 first">
+<a href="http://localhost/index.php/car-store/lingerie/briefs.html">
+<span>Briefs</span>
+</a>
+</li><li class="level2 nav-1-2-8">
+<a href="http://localhost/index.php/car-store/lingerie/camis.html">
+<span>Camis</span>
+</a>
+</li><li class="level2 nav-1-2-9">
+<a href="http://localhost/index.php/car-store/lingerie/nightwear.html">
+<span>Nightwear</span>
+</a>
+</li><li class="level2 nav-1-2-10 last">
+<a href="http://localhost/index.php/car-store/lingerie/shapewear.html">
+<span>Shapewear</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-1-3 last parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/index.php/car-store/accessories.html">
+<span>Accessories</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-3-11 first">
+<a href="http://localhost/index.php/car-store/accessories/hair-accessories.html">
+<span>Hair accessories</span>
+</a>
+</li><li class="level2 nav-1-3-12">
+<a href="http://localhost/index.php/car-store/accessories/hats-and-gloves.html">
+<span>Hats and Gloves</span>
+</a>
+</li><li class="level2 nav-1-3-13">
+<a href="http://localhost/index.php/car-store/accessories/lifestyle.html">
+<span>Lifestyle</span>
+</a>
+</li><li class="level2 nav-1-3-14">
+<a href="http://localhost/index.php/car-store/accessories/bras.html">
+<span>Bras</span>
+</a>
+</li><li class="level2 nav-1-3-15">
+<a href="http://localhost/index.php/car-store/accessories/scarves.html">
+<span>Scarves</span>
+</a>
+</li><li class="level2 nav-1-3-16 last">
+<a href="http://localhost/index.php/car-store/accessories/small-leathers.html">
+<span>Small leathers</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>                    <li class="level0 nav-2 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/index.php/men.html">
+<span>Cameras</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-2-1 first">
+<a href="http://localhost/index.php/men/clothing.html">
+<span>Clothing</span>
+</a>
+</li><li class="level1 nav-2-2">
+<a href="http://localhost/index.php/men/shoes.html">
+<span>Shoes</span>
+</a>
+</li><li class="level1 nav-2-3 last">
+<a href="http://localhost/index.php/men/bags.html">
+<span>Bags</span>
+</a>
+</li>
+</ul>
+</li>                    <li class="level0 nav-3 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
+<a href="http://localhost/index.php/footwear.html">
+<span>Tablets</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-3-1 first">
+<a href="http://localhost/index.php/footwear/footwear-man.html">
+<span>Footwear man</span>
+</a>
+</li><li class="level1 nav-3-2">
+<a href="http://localhost/index.php/footwear/accessories-man.html">
+<span>Accessories man</span>
+</a>
+</li><li class="level1 nav-3-3">
+<a href="http://localhost/index.php/footwear/footwear-women.html">
+<span>Footwear women</span>
+</a>
+</li><li class="level1 nav-3-4 last">
+<a href="http://localhost/index.php/footwear/accessories-women.html">
+<span>Accessories women</span>
+</a>
+</li>
+</ul>
+</li>                    <li class="level0 nav-4">
+<a href="http://localhost/index.php/kid.html">
+<span>Cosmetics</span>
+</a>
+</li>                    <li class="level0 nav-5">
+<a href="http://localhost/index.php/blog.html">
+<span>Blog</span>
+</a>
+</li>            </ul>
+    <script type="text/javascript">
+        $sns_jq(document).ready(function($){
+            $('body#bd').addClass('resmenu-sb');
+            $('body#bd #sns_wrapper').append('<nav id="sns_off_screennav" class="wrap"><ul></ul></nav>');
+            $('body#bd #sns_wrapper').append('<div id="sns_off_screennav_overlay"></div>');
+            //$('#sns_off_screennav').css('height', $(window).outerHeight());
+            //$('body#bd').css({'height': $(window).outerHeight(), 'overflow':'hidden'});
+            $('#sns_off_screennav ul').html($('#sns_mainnav ul.resmenu').html());
+            $('#sns_mainnav ul.resmenu').html('');
+
+            $('.btn.sns-resmenu-sidebar').click(function(){
+                if($('body#bd').hasClass('on-sidebar')){
+                    $('body#bd').removeClass('on-sidebar');
+                }else{
+                    $('body#bd').addClass('on-sidebar');
+                }
+            });
+            eventType = (IS_HANDHELD)?'touchstart' : 'click';
+            $('#sns_off_screennav_overlay').bind(eventType, function(){
+                $('body#bd').removeClass('on-sidebar');
+            });
+        });
+    </script>
+    </div>
